@@ -1,10 +1,3 @@
-<style>
-img{
-    width: 60%;
-    padding-left: 20%;
-}
-</style>
-
 # 夫子 FuZi
 > ”师者，所以传道受业解惑也。——韩愈“  
 
