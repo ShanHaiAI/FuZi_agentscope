@@ -9,7 +9,7 @@ from core.prompt import Prompts as pr
 HostMsg = partial(Msg, name="Moderator", role="assistant", echo=True)
 
 agentscope.init(
-    model_configs="../configs/model_config.json",
+    model_configs="configs/model_config.json",
 )
 
 # initialize agents
