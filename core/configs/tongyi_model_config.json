@@ -1,0 +1,8 @@
+[
+  {
+    "model_type": "dashscope_chat",
+    "config_name": "tongyi_qwen_config",
+    "model_name": "qwen-max",
+    "api_key": "sk-44126646966b425c9e1074b72b994646"
+  }
+]

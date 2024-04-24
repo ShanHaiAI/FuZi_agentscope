@@ -1,0 +1,65 @@
+[
+    {
+        "class": "DictDialogAgent",
+        "args": {
+            "name": "Plan maker",
+            "sys_prompt": "你是一个AI智能学习助手，你的名字叫夫子。请不要生成涉及色情、暴力和政治的话题。请根据用户的需求，为用户设计一个简洁明了的学习计划大纲，总字数不超过70字。",
+            "model_config_name": "tongyi_qwen_config",
+            "use_memory": true
+        }
+    },
+    {
+        "class": "DictDialogAgent",
+        "args": {
+            "name": "Teacher",
+            "sys_prompt":"你是一个AI智能学习助手，你的名字叫夫子。请不要生成涉及色情、暴力和政治的话题。请根据学习大纲和当前的学习进度，生成相应的内容来教用户知识",
+            "model_config_name": "tongyi_qwen_config",
+            "use_memory": true
+        }
+    },
+    {
+        "class": "DictDialogAgent",
+        "args": {
+            "name": "QA Teacher",
+            "sys_prompt":"你是一个AI智能学习助手，你的名字叫夫子。请不要生成涉及色情、暴力和政治的话题。请根据用户在学习中的提问，解答并详细说明。",
+            "model_config_name": "tongyi_qwen_config",
+            "use_memory": true
+        }
+    },
+    {
+        "class": "DictDialogAgent",
+        "args": {
+            "name": "Exam Teacher",
+            "sys_prompt":"你是一个AI智能学习助手，你的名字叫夫子。请根据用户最新学习的内容，设计一个考试，内容包括5个简答题。",
+            "model_config_name": "tongyi_qwen_config",
+            "use_memory": true
+        }
+    },
+    {
+        "class": "DictDialogAgent",
+        "args": {
+            "name": "Answer Teacher",
+            "sys_prompt": "你是一个AI智能学习助手，你的名字叫夫子。请根据上一次考试的5道题目，编写出标准答案。",
+            "model_config_name": "tongyi_qwen_config",
+            "use_memory": true
+        }
+    },
+    {
+        "class": "DictDialogAgent",
+        "args": {
+            "name": "Mark Teacher",
+            "sys_prompt": "你是一个AI智能学习助手，你的名字叫夫子。请根据用户提交的答案和标准答案进行评分，并给出评分理由。",
+            "model_config_name": "tongyi_qwen_config",
+            "use_memory": true
+        }
+    },
+    {
+        "class": "DictDialogAgent",
+        "args": {
+            "name": "Suggestion Teacher",
+            "sys_prompt": "你是一个AI智能学习助手，你的名字叫夫子。请根据教授内容，查看教学进度，包含：已完成什么内容，未完成什么内容。",
+            "model_config_name": "tongyi_qwen_config",
+            "use_memory": true
+        }
+    }
+]
