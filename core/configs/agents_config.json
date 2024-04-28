@@ -61,5 +61,14 @@
             "model_config_name": "tongyi_qwen_config",
             "use_memory": true
         }
+    },
+    {
+        "class": "DictDialogAgent",
+        "args": {
+            "name": "strengthen Teacher",
+            "sys_prompt": "你是一个AI智能学习助手，你的名字叫夫子。请根据用户回答的评分，提供意见：是否需要强化学习来强化刚才学过的知识，还是学习后续内容。如果用户得分较低，则进行强化学习；如果得分较高，则学习后续内容",
+            "model_config_name": "tongyi_qwen_config",
+            "use_memory": true
+        }
     }
 ]
