@@ -1,8 +1,8 @@
 [
     {
-        "model_type": "openai_chat",
-        "config_name": "gpt-4",
-        "model_name": "gpt-4",
+        "model_type": "dashscope_chat",
+        "config_name": "tongyi_qwen_config",
+        "model_name": "qwen-max",
         "api_key": "xxx",
         "organization": "xxx",
         "generate_args": {
